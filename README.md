@@ -49,7 +49,23 @@ git log --name-only ---> you can list only the name of the files
    37  git log help
    38  git log --help
    39  git log -3
-   40  git log --only-name
+
    41  git log --help
    42  git log --name-only
    43  history
+   
+   ---------------------------------------------------
+   
+   Looking at the commit history, try to guess what branch was the feature/signout branch created from?
+
+
+Checkout branch feature/signout and then use the command git log --graph --decorate to see previous commit history along with the branch they were committed on.
+
+
+
+===================================
+Remote repository (git, bitbuket, gitlab)
+
+Local repository (Local machine)
+
+
